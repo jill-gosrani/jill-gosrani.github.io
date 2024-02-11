@@ -1,0 +1,611 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" href="img/favicon.png" type="image/png">
+	<title>Jill Gosrani</title>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="./css/bootstrap.css">
+	<link rel="stylesheet" href="./vendors/linericon/style.css">
+	<link rel="stylesheet" href="./css/font-awesome.min.css">
+	<link rel="stylesheet" href="./vendors/owl-carousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="./vendors/lightbox/simpleLightbox.css">
+	<link rel="stylesheet" href="./vendors/nice-select/css/nice-select.css">
+	<link rel="stylesheet" href="./vendors/animate-css/animate.css">
+	<link rel="stylesheet" href="./vendors/flaticon/flaticon.css">
+	<!-- main css -->
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/responsive.css">
+	<style>
+		.card {
+  margin-bottom: 20px;
+}
+
+.card img {
+  transition: 0.3s;
+}
+
+.card img:hover {
+  opacity: 0.7;
+}
+
+.card img:hover::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60px;  
+  height: 60px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.card img:hover::before {
+  content: "View";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #fff;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: bold; 
+}
+
+.card img:hover::before:hover {
+  color: #000;
+  background-color: #fff;
+}
+	</style>
+</head>
+
+<body>
+
+	<!--================Header Menu Area =================-->
+	<header class="header_area">
+		<div class="main_menu" id="mainNav">
+			<nav class="navbar navbar-expand-lg navbar-light">
+				<div class="container box_1620">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<a class="navbar-brand logo_h" href="index.html" style="font-weight: 500;">JBG.</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse"
+						data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+						aria-expanded="false" aria-label="Toggle navigation">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+						<ul class="nav navbar-nav menu_nav ml-auto" >
+							<!-- <li class="nav-item active" ><a class="nav-link" href="./Resume/JillGosrani.pdf" target="_blank" rel="noreferrer noopener" ><span id="nav_btn_hover">Resume</span></a></li> -->
+							<li class="nav-item"><a class="nav-link" href="#welcome_area p_120"><span id="nav_btn_hover">About</span></a></li>
+							<li class="nav-item"><a class="nav-link" href="#feature_area p_120"><span id="nav_btn_hover">My Journey</span></a></li>
+							<li class="nav-item"><a class="nav-link" href="services.html"><span id="nav_btn_hover">Projects</span></a></li>			
+							<li class="nav-item"><a class="nav-link" href="contact.html"><span id="nav_btn_hover">Contact</span></a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<!--================Header Menu Area =================-->
+
+	<!--================Home Banner Area =================-->
+	<section class="home_banner_area">
+		<div class="banner_inner">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="home_left_img">
+							<img src="./img/banner/home_left_1.png" alt="" width="500px">
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="banner_content">
+							<h5 Style="text-transform: none;"> Hi! I am</h5>
+							<h2>Jill Gosrani</h2>
+							<p>I am a Life long learner | Full Stack Developer | Web Designer & Developer </p>
+							<a class="banner_btn" href="./Resume/JillGosrani.pdf" target="_blank">Resume</a>
+							<a style="padding-right:40px;padding-left: 40px" href="https://github.com/jill-gosrani" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></a>
+							<a href="https://www.linkedin.com/in/jill-gosrani/" target="_blank"><svg xmlns="https://cdn.svgporn.com/logos/linkedin-icon.svg" width="40" height="40" viewBox="0 0 24 24" style="color: #0077B5;"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--================End Home Banner Area =================-->
+
+	<!--================Welcome Area =================-->
+	<section id="welcome_area p_120" style="padding: 100px;">
+		<div class="container">
+			<div class="row welcome_inner">
+				<div class="col-lg-6">
+					<div class="welcome_text">
+						<h4>About Myself</h4>
+						<p>I'm a graduate student at Syracuse University, majoring in Computer Science.
+							My areas of interest include Full-Stack development (MERN Stack), machine learning algorithms, mobile application development.
+							With a detail oriented-focus, I enjoy creating simple but effective solutions to improve application performance, ease of maintenance, and user experience.
+						</p>
+						<p style="text-align: justify;">
+							I am a quick learner and always strive to stay up-to-date with the latest advancements in the field. I have certifications in Python and Java programming, and I am proficient in datasets and machine learning algorithms. I am a strong believer in collaboration and enjoy working in diverse teams. Driven by curiosity and a desire to make a positive impact, I am eager to leverage my skills and contribute to innovative projects.
+						</p>						
+					</div>
+				</div>				
+				<div class="tools_expert">
+					<h3>Skills</h3>
+					<div class="container">
+						<div class="row">
+							<div class="col"style="margin: 5px;">
+								<img src="https://cdn.svgporn.com/logos/java.svg" alt="java-icon" height="80" width="80">
+							</div>
+						
+							<div class="col" style="margin: 5px;">
+								<img src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/python-logo-only.svg" alt="html-5-icon" height="80" width="80">
+							
+							</div>
+							<div class="col"style="margin: 5px;">
+								<img src="https://cdn.svgporn.com/logos/javascript.svg" alt="js-icon" height="80" width="80">
+								
+							</div>
+						</div>
+						<div class="row">
+							<div class="col" style="margin: 5px;">
+								<img src="https://cdn.svgporn.com/logos/mysql.svg" alt="mysql-icon" height="80" width="80">
+								
+							</div>
+							<div class="col" style="margin: 5px;">
+								<img src="https://cdn.svgporn.com/logos/angular.svg" alt="jquery-icon" height="80" width="80">
+								
+							</div>
+							<div class="col" style="margin: 5px;">
+								<img src="https://cdn.svgporn.com/logos/php.svg" alt="php-icon" height="80" width="80">
+								
+							</div>
+						</div>							
+						<div class="row">
+							<div class="col" style="margin: 5px;">
+								<img src="https://cdn.svgporn.com/logos/flutter.svg" alt="flutter-icon" height="80" width="80">
+								
+							</div>
+							<div class="col" style="margin: 5px;">
+								<img src="https://cdn.svgporn.com/logos/spring.svg" alt="C-icon" height="80" width="80">
+								
+							</div>							 
+							<div class="col" style="margin: 5px;">
+								<img src="https://cdn.svgporn.com/logos/mongodb.svg" alt="mongodb-icon" height="80" width="80">
+								
+							</div>								
+						</div>
+						<div class="row">
+							<div class="col" style="margin: 5px;">
+								<img src="https://cdn.svgporn.com/logos/express.svg" alt="express-icon" height="80" width="80">
+								
+							</div>
+							<div class="col" style="margin: 5px;">
+								<img src="https://cdn.svgporn.com/logos/react.svg" alt="react-icon" height="80" width="80">
+								
+							</div>
+							<div class="col" style="margin: 5px;">
+								<img src="https://cdn.svgporn.com/logos/nodejs.svg" alt="nodejs-icon" height="80" width="80">
+								
+							</div>
+						</div>						 
+					</div>				
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--================End Welcome Area =================-->
+
+	<!--================Feature Area =================-->
+	<section id="feature_area p_120" style="padding: 100px;">
+		<div class="container">
+			<div class="main_title">
+				<h2>My Journey</h2>
+			</div>
+			<div class="feature_inner row">
+				<div class="row">
+					<div class="feature_item">
+						<a href="https://www.syracuse.edu/" target="_blank"><img src="https://seeklogo.com/images/S/syracuse-university-logo-8B3CDFBCBA-seeklogo.com.png" alt="syr-logo" height="60" width="50" style="margin-bottom:15px ;"></a>
+						<h4>Syracuse  University</h4>
+						<p>
+							Master of Science in Computer & Information Sciences
+						</p>
+						<p>
+							Aug 2022 - May 2024
+						</p>
+							CPA: 3.8/4
+						</p>
+						<p>
+							Courses: Computer Architecture, Object Oriented Design, Principles of Operating Systems, Artificial Intelligence, Design & Analysis of Algorithms, Social Media & Data Mining, Machine Learning, Assured Programming & Formal Methods, Natural Language Progesing, Database Management Systems.
+						</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="feature_item">
+						<a href="https://mu.ac.in/" alt="University of Mumbai" target="_blank"><img class="logo-small" src="https://mu.ac.in/wp-content/uploads/2019/03/University-logo321.png"></a>
+						<p>
+							Bachelor's of Engineering in Information Technologies
+						</p>
+						<p>
+							June 2017 - Aug 2021
+						</p>
+							CPA: 8.78/10
+						</p>
+						<p>
+							Courses: Data Structures and Algorithms, Object Oriented Programming, Internet Programming, Data Mining & Business Intelligence, Mobile Application Development, Automata Theory, Python Programming, Java Programming, Introduction to Database, Software Engineering with Project Management.
+					</div>
+				</div>
+				<div class="row">
+					<div class="feature_item">
+						<a href="https://ischool.syr.edu/research/c4lab/"><img itemprop="image" class="avatar flex-shrink-0 mb-3 mr-3 mb-md-0 mr-md-4" src="https://avatars.githubusercontent.com/u/59060709?s=200&amp;v=4" width="100" height="100" alt="@c4-lab"></a>
+						<h4>C4 Labs</h4>
+						<p>
+							Research Assistant
+						</p>
+						<p>
+							May 2023 - Oct 2023
+						</p>
+							Responsibilities:- 
+
+						<li>Developed a highly efficient spaCy plugin that achieved a 25% reduction in duplicated subject content within collected tweets, enhancing data clarity, and streamlining data analysis processes.</li>
+						<li>Designed and implemented custom cleaning and extraction functions to detect beliefs from over 70 million noisy user data. And reduced execution time by 20% by using spaCy pipelines.</li>
+						<li>Researched and analyzed methods to achieve semantically similar subject data which will results in a more efficient and accurate data analysis process.</li>
+						
+					</div>
+				</div>
+				<div class="row">
+					<div class="feature_item">
+						<a href="https://www.artofliving.org/environmental-sustainability/water-conservation/river-rejuvenation" target="_blank"><img class="img-responsive" src="https://www.artofliving.org/sites/www.artofliving.org/files/images/logo/Logo%201.png" alt="AOL logo" height="60" width="157"></a>
+						
+						<p>
+							Software Development Intern
+						</p>
+						<p>
+							Aug 2020 - March 2021
+						</p>
+						Responsibilities:- 
+						<li>Established project management application to replace existing client system using Flutter, Dart and Firebase,
+							resulting in a 40% increase in productivity and reduced manual labor.
+							</li>
+						<li>Utilized Agile Methodologies, Git and Slack for team management and version control. Performed testing using API
+							tester & postman to identify code limitations and reduced number of errors by 30%.
+							</li>
+						<li>Led a Team of 5 Interns to successfully develop payment gateway for the application and design visually appealing UI
+							for elevating user experience. Utilized Razorpay Api to implement payment gateway</li>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--================End Feature Area =================-->
+
+	<!--================Projects Area =================-->
+	<section id="projects_area p_120" style="padding: 100px;">
+		<div class="container">
+			<!-- <div class="showcaseItem-module--showCaseItem--2cOhQ is-selected" style="position: absolute; left: 0px; transform: translateX(0%);">
+				<a aria-label="Link to showcase" href="/showcases/boxby">
+				<div class="showcaseItem-module--featureImage--3EOYU">
+					<div class="showcaseItem-module--bgImage--1cv8t gatsby-image-wrapper" style="position: relative; overflow: hidden;">
+						<div aria-hidden="true" style="width: 100%; padding-bottom: 66.5%;"></div>
+						<img aria-hidden="true" src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBBAX/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//aAAwDAQACEAMQAAABVKFFapQHP//EABwQAAMAAQUAAAAAAAAAAAAAAAECAwQAERITNP/aAAgBAQABBQKuYefcyyGzC/ptQnUshlT/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAwEBPwFH/8QAFREBAQAAAAAAAAAAAAAAAAAAACH/2gAIAQIBAT8BV//EAB0QAAICAQUAAAAAAAAAAAAAAAABESJRAjFBcZH/2gAIAQEABj8CppajJbwk7Qlxgjc//8QAHRAAAQQCAwAAAAAAAAAAAAAAAQARITFBYVFxgf/aAAgBAQABPyE3WDr8UFc8lEKRAvZhIB0qIBiAwoYGxX//2gAMAwEAAgADAAAAEIj/AP/EABgRAQEAAwAAAAAAAAAAAAAAAAEAETFR/9oACAEDAQE/EE7Izu//xAAXEQEBAQEAAAAAAAAAAAAAAAABABEx/9oACAECAQE/EDgll//EAB0QAQEAAgIDAQAAAAAAAAAAAAERACExQVFhgcH/2gAIAQEAAT8QNu4tmryvhOMQ4qomq2ivQ7J9wk5Xp/cShlCJyrMiRdggrpvbrCWqXsc//9k=" alt="" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 0; transition-delay: 500ms;">
+						<picture>
+							<source srcset="/static/563aa7d572b55de89d1772f23265d854/f836f/boxby5.jpg 200w,
+							/static/563aa7d572b55de89d1772f23265d854/2244e/boxby5.jpg 400w,
+							/static/563aa7d572b55de89d1772f23265d854/14b42/boxby5.jpg 800w,
+							/static/563aa7d572b55de89d1772f23265d854/47498/boxby5.jpg 1200w,
+							/static/563aa7d572b55de89d1772f23265d854/0e329/boxby5.jpg 1600w,
+							/static/563aa7d572b55de89d1772f23265d854/69755/boxby5.jpg 2048w" sizes="(max-width: 800px) 100vw, 800px">
+							<img sizes="(max-width: 800px) 100vw, 800px" srcset="/static/563aa7d572b55de89d1772f23265d854/f836f/boxby5.jpg 200w,
+							/static/563aa7d572b55de89d1772f23265d854/2244e/boxby5.jpg 400w,
+							/static/563aa7d572b55de89d1772f23265d854/14b42/boxby5.jpg 800w,
+							/static/563aa7d572b55de89d1772f23265d854/47498/boxby5.jpg 1200w,
+							/static/563aa7d572b55de89d1772f23265d854/0e329/boxby5.jpg 1600w,
+							/static/563aa7d572b55de89d1772f23265d854/69755/boxby5.jpg 2048w" src="/static/563aa7d572b55de89d1772f23265d854/14b42/boxby5.jpg" alt="" loading="lazy" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 1; transition: opacity 500ms ease 0s;">
+						</picture>
+						<noscript>
+							<picture>
+							<source srcset="/static/563aa7d572b55de89d1772f23265d854/f836f/boxby5.jpg 200w,
+								/static/563aa7d572b55de89d1772f23265d854/2244e/boxby5.jpg 400w,
+								/static/563aa7d572b55de89d1772f23265d854/14b42/boxby5.jpg 800w,
+								/static/563aa7d572b55de89d1772f23265d854/47498/boxby5.jpg 1200w,
+								/static/563aa7d572b55de89d1772f23265d854/0e329/boxby5.jpg 1600w,
+								/static/563aa7d572b55de89d1772f23265d854/69755/boxby5.jpg 2048w" sizes="(max-width: 800px) 100vw, 800px" />
+							<img loading="lazy" sizes="(max-width: 800px) 100vw, 800px" srcset="/static/563aa7d572b55de89d1772f23265d854/f836f/boxby5.jpg 200w,
+								/static/563aa7d572b55de89d1772f23265d854/2244e/boxby5.jpg 400w,
+								/static/563aa7d572b55de89d1772f23265d854/14b42/boxby5.jpg 800w,
+								/static/563aa7d572b55de89d1772f23265d854/47498/boxby5.jpg 1200w,
+								/static/563aa7d572b55de89d1772f23265d854/0e329/boxby5.jpg 1600w,
+								/static/563aa7d572b55de89d1772f23265d854/69755/boxby5.jpg 2048w" src="/static/563aa7d572b55de89d1772f23265d854/14b42/boxby5.jpg" alt="" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/>
+							</picture>
+						</noscript>
+					</div>
+					<div class="showcaseItem-module--wrapOver--1WW2q">
+						<div class="showcaseItem-module--labelHolder--VuClN">
+							<div class="showcaseItem-module--label--3uWQI">NodeJS</div>
+							<div class="showcaseItem-module--label--3uWQI">EJS</div>
+							<div class="showcaseItem-module--label--3uWQI">AR.JS</div>
+							<div class="showcaseItem-module--label--3uWQI">Python</div>
+							<div class="showcaseItem-module--label--3uWQI">Bash</div>
+						</div>
+					</div>
+				</div>
+				</a>
+				<h3><a aria-label="Link to showcase" href="/showcases/boxby">Boxby</a></h3>
+				<div class="showcaseItem-module--description--1usi_">1st Place RMIT Hackathon 2019. IoT solution for underserved communities by creating a cached local network.</div>
+				<a aria-label="Link to showcase" href="/showcases/boxby">VIEW PROJECT</a>
+			</div> -->
+			<div class="container">
+				<div class="row">
+				  <div class="col-md-4">
+					<div class="card">
+					  <img src="./img/gallery/portfolio_details.jpg" class="card-img-top">
+					  <div class="card-body">
+						<h5 class="card-title">Project 1</h5>
+						<p class="card-text">Some description of project 1</p>
+					  </div>
+					</div>
+				  </div>
+				  
+				  <div class="col-md-4">
+					<div class="card">
+					  <img src="image2.jpg" class="card-img-top">
+					  <div class="card-body">
+						<h5 class="card-title">Project 2</h5>
+						<p class="card-text">Some description of project 2</p>
+					  </div>
+					</div>
+				  </div>
+				  
+				  <div class="col-md-4">
+					<div class="card">
+					  <img src="image3.jpg" class="card-img-top">
+					  <div class="card-body">
+						<h5 class="card-title">Project 3</h5>
+						<p class="card-text">Some description of project 3</p>
+					  </div>
+					</div>
+				  </div>
+				</div>
+				
+				<div class="row">
+				  <div class="col-md-4">
+					<div class="card">
+					  <img src="image4.jpg" class="card-img-top">
+					  <div class="card-body">
+						<h5 class="card-title">Project 4</h5>
+						<p class="card-text">Some description of project 4</p>
+					  </div>
+					</div>
+				  </div>
+				  
+				  <div class="col-md-4">
+					<div class="card">
+					  <img src="image5.jpg" class="card-img-top">
+					  <div class="card-body">
+						<h5 class="card-title">Project 5</h5>
+						<p class="card-text">Some description of project 5</p>
+					  </div>
+					</div>
+				  </div>
+				  
+				  <div class="col-md-4">
+					<div class="card">
+					  <img src="image6.jpg" class="card-img-top">
+					  <div class="card-body">
+						<h5 class="card-title">Project 6</h5>
+						<p class="card-text">Some description of project 6</p>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<!-- <div class="container">
+			<div class="main_title">
+				<h2>Our Recent Completed Projects</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+			</div>
+			<div class="projects_fillter">
+				<ul class="filter list">
+					<li class="active" data-filter="*"><a href="#">All Categories</a></li>
+					<li data-filter=".brand"><a href="#">Branding</a></li>
+					<li data-filter=".work"><a href="#">Creative Work </a></li>
+					<li data-filter=".web"><a href="#">Web Design</a></li>
+				</ul>
+			</div>
+			<div class="projects_inner row">
+				<div class="col-lg-4 col-sm-6 brand web">
+					<div class="projects_item">
+						<img class="img-fluid" src="img/projects/projects-1.jpg" alt="">
+						<div class="projects_text">
+							<a href="portfolio-details.html">
+								<h4>3D Helmet Design</h4>
+							</a>
+							<p>Client Project</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6 brand work">
+					<div class="projects_item">
+						<img class="img-fluid" src="img/projects/projects-2.jpg" alt="">
+						<div class="projects_text">
+							<a href="portfolio-details.html">
+								<h4>3D Helmet Design</h4>
+							</a>
+							<p>Client Project</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6 work">
+					<div class="projects_item">
+						<img class="img-fluid" src="img/projects/projects-3.jpg" alt="">
+						<div class="projects_text">
+							<a href="portfolio-details.html">
+								<h4>3D Helmet Design</h4>
+							</a>
+							<p>Client Project</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6 brand web">
+					<div class="projects_item">
+						<img class="img-fluid" src="img/projects/projects-4.jpg" alt="">
+						<div class="projects_text">
+							<a href="portfolio-details.html">
+								<h4>3D Helmet Design</h4>
+							</a>
+							<p>Client Project</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6 brand work">
+					<div class="projects_item">
+						<img class="img-fluid" src="img/projects/projects-5.jpg" alt="">
+						<div class="projects_text">
+							<a href="portfolio-details.html">
+								<h4>3D Helmet Design</h4>
+							</a>
+							<p>Client Project</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6 brand work web">
+					<div class="projects_item">
+						<img class="img-fluid" src="img/projects/projects-6.jpg" alt="">
+						<div class="projects_text">
+							<a href="portfolio-details.html">
+								<h4>3D Helmet Design</h4>
+							</a>
+							<p>Client Project</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> -->
+	</section>
+	<!--================End Projects Area =================-->
+
+	
+	<!--================Footer Area =================-->
+	<footer class="footer_area p_120">
+		<div class="container">
+			<div class="row footer_inner">
+				<div class="col-lg-5 col-sm-6">
+					<aside class="f_widget ab_widget">
+						<div class="f_title">
+							<h3>About Me</h3>
+						</div>
+						<p>Hi, My name is Shaikh Minhaj, I am a Full Stack Developer. I am a Final year Student Pursuing
+							a Bachelor of Computer Applications (BCA) @ MGM College of CS & IT Nanded. My interests
+							include Full Stack Web Development, Web Designing, coding, Learning New Technologies etc. I
+							am very passionate about improving my coding skills & developing applications & websites.
+							Working for myself to improve my skills.
+
+						</p>
+						<p>
+							Copyright &copy;
+							<script>document.write(new Date().getFullYear());</script> All rights reserved | This
+							template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a
+								href="https://github.com/minhaj-313" target="_blank">minhaj-313</a>
+
+						</p>
+					</aside>
+				</div>
+				<div class="col-lg-5 col-sm-6">
+					<aside class="f_widget news_widget">
+						<div class="f_title">
+							<h3>Newsletter</h3>
+						</div>
+						<p>Stay updated with our latest trends</p>
+						<div id="mc_embed_signup">
+							<form target="_blank"
+								action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
+								method="get" class="subscribe_form relative">
+								<div class="input-group d-flex flex-row">
+									<input name="EMAIL" placeholder="Enter email address"
+										onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address '"
+										required="" type="email">
+									<button class="btn sub-btn"><span class="lnr lnr-arrow-right"></span></button>
+								</div>
+								<div class="mt-10 info"></div>
+							</form>
+						</div>
+					</aside>
+				</div>
+				<div class="col-lg-2">
+					<aside class="f_widget social_widget">
+						<div class="f_title">
+							<h3>Follow Me</h3>
+						</div>
+						<p>Let us be social</p>
+						<ul class="list">
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+							<li><a href="#"><i class="fa fa-behance"></i></a></li>
+						</ul>
+					</aside>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!--================End Footer Area =================-->
+
+
+
+
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/popper.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/stellar.js"></script>
+	<script src="vendors/lightbox/simpleLightbox.min.js"></script>
+	<script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+	<script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+	<script src="vendors/isotope/isotope-min.js"></script>
+	<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+	<script src="js/jquery.ajaxchimp.min.js"></script>
+	<script src="vendors/counter-up/jquery.waypoints.min.js"></script>
+	<script src="vendors/counter-up/jquery.counterup.min.js"></script>
+	<script src="js/mail-script.js"></script>
+	<!--gmaps Js-->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
+	<script src="js/gmaps.min.js"></script>
+	<script src="js/theme.js"></script>
+</body>
+
+</html>
