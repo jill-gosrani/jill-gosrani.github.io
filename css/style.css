@@ -95,11 +95,11 @@ button:focus {
 
 @media (min-width: 1200px) {
   .container {
-    max-width: 980px; } }
+    max-width: 940px; } }
 
 @media (min-width: 1620px) {
   .box_1620 {
-    max-width: 1440px;
+    max-width: 1400px;
     margin: auto; } }
 .white_bg {
   background: #fff !important; }
