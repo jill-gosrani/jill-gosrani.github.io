@@ -23,51 +23,11 @@
 		.card {
 		margin-bottom: 20px;
 		}
-
-		.card img {
-		transition: 0.3s;
+		.card-img-top{
+			height: 200px;
+			
 		}
-
-		.card img:hover {
-		opacity: 0.7;
-		}
-
-		.card img:hover::after {
-		content: "";
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-		width: 60px;  
-		height: 60px;
-		border-radius: 50%;
-		background-color: #fff;
-		}
-
-		.card img:hover::before {
-		content: "View";
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-		color: #fff;
 		
-		width: 60px;
-		height: 60px;
-		border-radius: 50%;
-		background-color: #fff;
-		
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		font-size: 14px;
-		font-weight: bold; 
-		}
-
-		.card img:hover::before:hover {
-		color: #000;
-		background-color: #fff;
-		}
 		.columns {
 			margin-left: -0.75rem;
 			margin-right: -0.75rem;
@@ -256,8 +216,8 @@
 	<!--================Feature Area =================-->
 	<section id="feature_area p_120" style="padding-top: 80px;">
 		<div class="container">
-			<div class="main_title">
-				<h2>My Journey</h2>
+			<div class="main_title welcome_text">
+				<h4>My Journey</h4>
 			</div>
 			<div class="feature_inner row">
 				<div class="row">
@@ -336,71 +296,89 @@
 	<!--================End Feature Area =================-->
 
 	<!--================Projects Area =================-->
-	<section id="projects_area p_120" style="padding: 100px;">	
+	<section id="projects_area p_120" style="padding-top: 100px;">
 		<div class="container">
-			<div class="row">
-				<div class="col-md-4">
-				<div class="card">
-					<img src="./img/gallery/portfolio_details.jpg" class="card-img-top">
-					<div class="card-body">
-						<h5 class="card-title">Project 1</h5>
-						<p class="card-text">Some description of project 1</p>
+			<div class="welcome_text">
+				<h4  >About Myself</h4>
+			</div>
+			<div class="row row-cols-1 row-cols-md-2 g-4">
+				<div class="col">
+					<div class="card">
+						<img src="./img/projects/SPI.png" class="card-img-top" alt="Student performance img" />
+						<div class="card-body">
+						<h5 class="card-title">Student Performance Calculator.
+						</h5>
+						<p class="card-text">
+							Developed a machine learning application using data preprocessing pipeline to clean and transform raw data and regression algorithms to calculate student's performance.
+
+						</p>
+						</div>
 					</div>
 				</div>
-				</div>
-				
-				<div class="col-md-4">
-				<div class="card">
-					<img src="image2.jpg" class="card-img-top">
-					<div class="card-body">
-					<h5 class="card-title">Project 2</h5>
-					<p class="card-text">Some description of project 2</p>
+				<div class="col">
+					<div class="card">
+						<img src="./img/projects/flightArrival.jpg" class="card-img-top"
+						alt="Palm Springs Road" />
+						<div class="card-body">
+							<h5 class="card-title">Forecasting Flight Arrival Times</h5>
+							<p class="card-text">
+								Established a predictive model using regression and classification algorithms to forecast flight arrivals into Syracuse, reducing errors by 20% with weather data.
+							</p>
+						</div>
 					</div>
 				</div>
-				</div>
-				
-				<div class="col-md-4">
-				<div class="card">
-					<img src="image3.jpg" class="card-img-top">
-					<div class="card-body">
-					<h5 class="card-title">Project 3</h5>
-					<p class="card-text">Some description of project 3</p>
+				<div class="col">
+					<div class="card">
+						<img src="https://mdbcdn.b-cdn.net/img/new/standard/city/043.webp" class="card-img-top"
+						alt="Los Angeles Skyscrapers" />
+						<div class="card-body">
+						<h5 class="card-title">Card title</h5>
+						<p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+							additional content.</p>
 					</div>
-				</div>
 				</div>
 			</div>
-			
-			<div class="row">
-				<div class="col-md-4">
+			</div>
+			<div class="row row-cols-1 row-cols-md-2 g-4">
+				<div class="col">
 				<div class="card">
-					<img src="image4.jpg" class="card-img-top">
+					<img src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp" class="card-img-top"
+					alt="Hollywood Sign on The Hill" />
 					<div class="card-body">
-					<h5 class="card-title">Project 4</h5>
-					<p class="card-text">Some description of project 4</p>
+					<h5 class="card-title">Card title</h5>
+					<p class="card-text">
+						This is a longer card with supporting text below as a natural lead-in to
+						additional content. This content is a little bit longer.
+					</p>
 					</div>
 				</div>
 				</div>
-				
-				<div class="col-md-4">
+				<div class="col">
 				<div class="card">
-					<img src="image5.jpg" class="card-img-top">
+					<img src="https://mdbcdn.b-cdn.net/img/new/standard/city/042.webp" class="card-img-top"
+					alt="Palm Springs Road" />
 					<div class="card-body">
-					<h5 class="card-title">Project 5</h5>
-					<p class="card-text">Some description of project 5</p>
+					<h5 class="card-title">Card title</h5>
+					<p class="card-text">
+						This is a longer card with supporting text below as a natural lead-in to
+						additional content. This content is a little bit longer.
+					</p>
 					</div>
 				</div>
 				</div>
-				
-				<div class="col-md-4">
+				<div class="col">
 				<div class="card">
-					<img src="image6.jpg" class="card-img-top">
+					<img src="https://mdbcdn.b-cdn.net/img/new/standard/city/043.webp" class="card-img-top"
+					alt="Los Angeles Skyscrapers" />
 					<div class="card-body">
-					<h5 class="card-title">Project 6</h5>
-					<p class="card-text">Some description of project 6</p>
+					<h5 class="card-title">Card title</h5>
+					<p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+						additional content.</p>
 					</div>
-				</div>
 				</div>
 			</div>
+			</div>
+		
 		</div>
 	</section>
 	<!--================End Projects Area =================-->
