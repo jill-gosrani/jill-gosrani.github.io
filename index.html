@@ -70,6 +70,25 @@
 			height: 80px;
 			width: 80px;
 		}
+		/* @media (max-width: 768px) {
+		.feature_inner .row {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+		}
+		
+		.feature_item {
+			flex-basis: calc(50% - 20px);
+			margin-bottom: 20px;
+		}
+		}
+
+		@media (max-width: 506px) {
+		.feature_item {
+			flex-basis: 100%;
+		}
+		} */
+
 	</style>
 </head>
 
@@ -96,7 +115,7 @@
 							<li class="nav-item"><a class="nav-link" href="#welcome_area about"><span id="nav_btn_hover">About</span></a></li>
 							<li class="nav-item"><a class="nav-link" href="#feature_area p_120"><span id="nav_btn_hover">My Journey</span></a></li>
 							<li class="nav-item"><a class="nav-link" href="#projects_area p_120"><span id="nav_btn_hover">Projects</span></a></li>			
-							<li class="nav-item"><a class="nav-link" href="#footer_area p_120"><span id="nav_btn_hover">Contact</span></a></li>
+							<li class="nav-item"><a class="nav-link" href="#footer p_120"><span id="nav_btn_hover">Contact</span></a></li>
 						</ul>
 					</div>
 				</div>
@@ -299,7 +318,7 @@
 	<section id="projects_area p_120" style="padding-top: 100px;">
 		<div class="container">
 			<div class="welcome_text">
-				<h4  >About Myself</h4>
+				<h4>Projects</h4>
 			</div>
 			<div class="row row-cols-1 row-cols-md-2 g-4">
 				<div class="col">
@@ -318,7 +337,7 @@
 				<div class="col">
 					<div class="card">
 						<img src="./img/projects/flightArrival.jpg" class="card-img-top"
-						alt="Palm Springs Road" />
+						alt="ML project" />
 						<div class="card-body">
 							<h5 class="card-title">Forecasting Flight Arrival Times</h5>
 							<p class="card-text">
@@ -329,12 +348,11 @@
 				</div>
 				<div class="col">
 					<div class="card">
-						<img src="https://mdbcdn.b-cdn.net/img/new/standard/city/043.webp" class="card-img-top"
-						alt="Los Angeles Skyscrapers" />
+						<img src="./img/projects/gomukuAI.png" class="card-img-top"
+						alt="Gomuku" />
 						<div class="card-body">
-						<h5 class="card-title">Card title</h5>
-						<p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-							additional content.</p>
+						<h5 class="card-title">Gomuku using CNN</h5>
+						<p class="card-text">Created Gomoku-playing game using AI with a 7-layer convolutional neural network (CNN), ReLU activation in first 6 layers, sigmoid in output, achieving 87% accuracy.</p>
 					</div>
 				</div>
 			</div>
@@ -342,26 +360,24 @@
 			<div class="row row-cols-1 row-cols-md-2 g-4">
 				<div class="col">
 				<div class="card">
-					<img src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp" class="card-img-top"
-					alt="Hollywood Sign on The Hill" />
+					<img src="./img/projects/CIF.png" class="card-img-top" style="width: 100%;"
+					alt="CIF Project" />
 					<div class="card-body">
-					<h5 class="card-title">Card title</h5>
+					<h5 class="card-title">Course Information Form Automation</h5>
 					<p class="card-text">
-						This is a longer card with supporting text below as a natural lead-in to
-						additional content. This content is a little bit longer.
+						Automated course outcome system with modern tech, boosting efficiency by 40%. Developed data-driven platform, enhancing student performance by 20%. Led algorithm research.
 					</p>
 					</div>
 				</div>
 				</div>
 				<div class="col">
 				<div class="card">
-					<img src="https://mdbcdn.b-cdn.net/img/new/standard/city/042.webp" class="card-img-top"
-					alt="Palm Springs Road" />
+					<img src="./img/projects/Trello-clone.png" class="card-img-top"
+					alt="Trello-clone" />
 					<div class="card-body">
-					<h5 class="card-title">Card title</h5>
+					<h5 class="card-title">Task Management Application</h5>
 					<p class="card-text">
-						This is a longer card with supporting text below as a natural lead-in to
-						additional content. This content is a little bit longer.
+						Built a Trello clone using SpringBoot, allowing for task management and collaboration application, Performed API testing using Postman resulting in enhanced productivity.
 					</p>
 					</div>
 				</div>
@@ -385,68 +401,21 @@
 
 	
 	<!--================Footer Area =================-->
-	<footer id="footer_area p_120">
-		<div class="container">
-			<div class="row footer_inner">
-				<div class="col-lg-5 col-sm-6">
-					<aside class="f_widget ab_widget">
-						<div class="f_title">
-							<h3>About Me</h3>
-						</div>
-						<p>Hi, My name is Shaikh Minhaj, I am a Full Stack Developer. I am a Final year Student Pursuing
-							a Bachelor of Computer Applications (BCA) @ MGM College of CS & IT Nanded. My interests
-							include Full Stack Web Development, Web Designing, coding, Learning New Technologies etc. I
-							am very passionate about improving my coding skills & developing applications & websites.
-							Working for myself to improve my skills.
+	
+		<footer id ="footer p_120" class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+		  <div class="col-md-4 d-flex align-items-center">
+			
+			<a class="navbar-brand logo_h" href="index.html" style="font-weight: 500; color: black;"><h4>© 2024 Jill Bhavin Gosrani.</h4></a>
+			
+		  </div>
+	  
+		  <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+			<li class="ms-3"><a style="padding-right:40px;padding-left: 40px" href="https://github.com/jill-gosrani" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></a></li>
+			<li class="ms-3"><a href="https://www.linkedin.com/in/jill-gosrani/" target="_blank"><svg xmlns="https://cdn.svgporn.com/logos/linkedin-icon.svg" width="40" height="40" viewBox="0 0 24 24" style="color: #0077B5;"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg></a></li>
+		  </ul>
+		</footer>
+	
 
-						</p>
-						<p>
-							Copyright &copy;
-							<script>document.write(new Date().getFullYear());</script> All rights reserved | This
-							template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a
-								href="https://github.com/minhaj-313" target="_blank">minhaj-313</a>
-
-						</p>
-					</aside>
-				</div>
-				<div class="col-lg-5 col-sm-6">
-					<aside class="f_widget news_widget">
-						<div class="f_title">
-							<h3>Newsletter</h3>
-						</div>
-						<p>Stay updated with our latest trends</p>
-						<div id="mc_embed_signup">
-							<form target="_blank"
-								action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
-								method="get" class="subscribe_form relative">
-								<div class="input-group d-flex flex-row">
-									<input name="EMAIL" placeholder="Enter email address"
-										onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address '"
-										required="" type="email">
-									<button class="btn sub-btn"><span class="lnr lnr-arrow-right"></span></button>
-								</div>
-								<div class="mt-10 info"></div>
-							</form>
-						</div>
-					</aside>
-				</div>
-				<div class="col-lg-2">
-					<aside class="f_widget social_widget">
-						<div class="f_title">
-							<h3>Follow Me</h3>
-						</div>
-						<p>Let us be social</p>
-						<ul class="list">
-							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-							<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-							<li><a href="#"><i class="fa fa-behance"></i></a></li>
-						</ul>
-					</aside>
-				</div>
-			</div>
-		</div>
-	</footer>
 	<!--================End Footer Area =================-->
 
 
